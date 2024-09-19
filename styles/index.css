@@ -10,7 +10,6 @@
     top: 0;
     z-index: 1;
     background-color: #000000;
-
 }
 
 .container-fluid{
@@ -90,7 +89,6 @@
 .parent4{
     display: flex;
     justify-content: space-between;
-    /* gap: 4rem; */
 }
 
 .container5{
@@ -98,6 +96,40 @@
     margin-left: 25px;
     padding: 2.5rem;
 }
+
+.menu-parent{
+    display: flex;
+    justify-content: space-between;
+    width: 97vw;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.menu-list ul{
+    line-height: 2rem;
+    text-decoration: none;
+    list-style: none;  
+    font-size: medium; 
+}
+
+.menu-list a{
+    text-decoration: none;
+    color: #B56900;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+    margin: auto;
+    margin-top: 3.5rem;
+    
+}
+.footer-content a{
+    text-decoration: none;
+    color: #B56900;
+}
+
 
 
 
