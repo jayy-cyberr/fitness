@@ -45,6 +45,7 @@ body{
 .parent{
     display: flex;
     justify-content: space-around;
+    gap: 6rem;
     align-items: center;
     border-top: 1px solid white;
     border-bottom: 1px solid white;
@@ -53,11 +54,50 @@ body{
     margin-top: 4rem;
 }
 
+.parent:hover{
+    background-color: white;
+}
+
+
 .parent .text{
     color: white;
+    padding: 2rem;
+}
+
+.parent .text:hover{
+    color: black;
 }
 
 .parent .list{
+    color: white;
+}
+
+.parent:hover p{
+    color: black;
+
+}
+.list a:hover{
+    color: black;
+
+}
+
+.hd-list:hover a{
+    background-color: white;
+    color: black;
+
+}
+
+.list{
+    width: 100vw;
+}
+
+
+.hd-list a{
+    text-decoration: none;
+    color: white;
+}
+
+.text a{
     color: white;
 }
 
