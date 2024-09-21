@@ -102,11 +102,11 @@
     justify-content: space-between;
     width: 97vw;
     margin: auto;
-    margin-top: 1rem;
+    margin-top: 2.5rem;
 }
 
 .menu-list ul{
-    line-height: 2rem;
+    line-height: 2.5rem;
     text-decoration: none;
     list-style: none;  
     font-size: medium; 
@@ -114,20 +114,38 @@
 
 .menu-list a{
     text-decoration: none;
-    color: #B56900;
+    color: #8B8C89;
 }
 
 .footer-content{
     display: flex;
     justify-content: space-between;
-    width: 90vw;
+    width: 97vw;
     margin: auto;
-    margin-top: 3.5rem;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
     
 }
 .footer-content a{
     text-decoration: none;
-    color: #B56900;
+    color: #8B8C89;
+}
+
+@media screen and (max-width:769px) {
+    .footer-content{
+        flex-direction: column;
+        gap: 0px;
+        line-height: 2.5rem;
+        padding-left: 2rem;
+    }
+
+    .menu-parent{
+        flex-direction: column;
+    }
+    .menu-parent .imgs{
+        padding-left: 2.5rem;
+    }
+
 }
 
 
