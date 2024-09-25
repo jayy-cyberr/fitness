@@ -3,9 +3,566 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <title>Equinox/Member Benefits</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    .navbar{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #000000;
+}
+
+.container-fluid{
+    width: 95vw;
+    margin: auto;
+    padding: 1.2rem;
+}
+
+.nav-link{
+    color: white;
+}
+
+.sale{
+    width: 35%;
+    margin: auto;
+    font-size: 16px;
+    padding: 5px;
+
+}
+
+.sign-container{
+    margin-top: -25rem;
+    padding-left: 3rem;
+}
+
+.sign-container h1{
+    color: white;
+    font-weight: 600;
+    margin-top: 25rem;
+}
+
+
+
+.sign-container p{
+    color: white;
+}
+
+
+.sign-container a{
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  text-decoration: none;
+  background: white;
+  color: black;
+  cursor: pointer;
+}
+
+
+
+.grand-left1{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    width: 100vw;
+    height: 80vh;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    
+}
+
+.parent-left1{
+   display: flex;
+   gap: 8rem;
+   padding-left: 5rem;
+   margin-top: 5rem;
+
+}
+
+@media screen and (max-width:769px) {
+    .parent-left1{
+        flex-direction: column;
+        gap: 0px;
+
+    }
+}
+
+.sign-hero{
+    border: 1px solid red;
+    margin-top: 10rem;
+    
+}
+
+
+.unl-container{
+    background-color: black;
+    color: white;
+}
+
+.unl-parent{
+    display: flex;
+   gap: 18rem;
+   padding-left: 5rem;
+
+}
+
+@media screen and (max-width:769px) {
+    .unl-parent{
+        flex-direction: column;
+        gap: 0px;
+
+    }
+}
+
+.unl-text h1{
+    margin-bottom: 2.5rem;
+    
+}
+
+.unl-text p{
+    margin-bottom: 2.5rem;
+}
+
+.unl-container2{
+    background-color: black;
+    color: white;
+    height: 120vh;
+}
+
+.unl-parent2{
+    display: flex;
+   gap: 15rem;
+   padding-left: 5rem;
+   width: 90vw;
+
+}
+
+@media screen and (max-width:769px) {
+    .unl-parent2{
+        flex-direction: column;
+        gap: 0px;
+
+    }
+}
+
+.unl-text2 h1{
+    margin-bottom: 2.5rem;
+    
+}
+
+.unl-text2 p{
+    margin-bottom: 2.5rem;
+}
+
+
+.join-container2{
+    background-color: black;
+    color: white;
+    height: 120vh;
+}
+
+.join-parent2{
+   display: flex;
+   gap: 3rem;
+   padding-left: 5rem;
+   width: 90vw;
+
+}
+
+@media screen and (max-width:769px) {
+    .join-parent2{
+        flex-direction: column;
+        gap: 0px;
+
+    }
+}
+
+.join-text2 h1{
+    margin-bottom: 2.5rem;
+    
+}
+
+.join-text2 p{
+    margin-bottom: 2.5rem;
+}
+
+ .j-img1{
+    width: 100vw;
+
+}
+
+.unl-container3{
+    background-color: black;
+    color: white;
+}
+
+.unl-parent3{
+    display: flex;
+   gap: 5rem;
+   padding-left: 5rem;
+   background-color: black;
+   color: white;
+
+}
+
+@media screen and (max-width:769px) {
+    .unl-parent3{
+        flex-direction: column;
+        gap: 0px;
+
+    }
+}
+
+.unl-text3 h1{
+    margin-bottom: 2.5rem;
+    
+}
+
+.unl-text3 p{
+    margin-bottom: 2.5rem;
+}
+
+
+.menu-parent{
+    display: flex;
+    justify-content: space-between;
+    width: 97vw;
+    margin: auto;
+    margin-top: 2.5rem;
+}
+
+.menu-list ul{
+    line-height: 2.5rem;
+    text-decoration: none;
+    list-style: none;  
+    font-size: medium; 
+}
+
+.menu-list a{
+    text-decoration: none;
+    color: #8B8C89;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    width: 97vw;
+    margin: auto;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+    
+}
+.footer-content a{
+    text-decoration: none;
+    color: #8B8C89;
+}
+
+@media screen and (max-width:769px) {
+    .footer-content{
+        flex-direction: column;
+        gap: 0px;
+        line-height: 2.5rem;
+        padding-left: 2rem;
+    }
+
+    .menu-parent{
+        flex-direction: column;
+    }
+    .menu-parent .imgs{
+        padding-left: 2.5rem;
+    }
+
+}
+
+        
+    </style>
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg navbar navbar-light" >
+        <div class="container-fluid">
+           <div>
+            <img src="./assets/Equinox Fitness Club - It_s Not Fitness_ It_s Life_/equinox-logo.png" alt="" width="65%" height="65%">
+           </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon bg-light"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Clubs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Member Benefits</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Classes
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Group Fitness</a></li>
+                  <li><a class="dropdown-item" href="#">Digital Classes</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Trainings
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Personal Training</a></li>
+                  <li><a class="dropdown-item" href="#">Pilates</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="true">Spa</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="true">Hotels</a>
+              </li>
+              <li class="nav-item dropdown"></li>
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Shop
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">The Shop At Equinox</a></li>
+                  <li><a class="dropdown-item" href="#">SoulCycle At-Home-Bike</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                </ul>
+              </li>
+              <li class="nav-item"></li>
+                <a class="nav-link" aria-current="true">Alumni</a>
+              </li>
+              <li class="nav-item"></li>
+                <a class="nav-link" aria-current="true">Sign in</a>
+              </li>
+            </ul>
+            <form class="btns">
+              <button class="btn btn-light" type="submit">Visit a Club</button>
+              <button class="btn btn-outline-light" type="submit">Join Online</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+        <!-- SALE -->
+            <div class="sale">
+                <p>The Equinox <span> <s>Sale:</s> $0 initiation. Offer ends soon.</span><span>  Claim Offer</span> 
+                    </p>
+            </div>
+
+            <!-- HERO -->
+
+            <section id="-sign-hero" class="d-flex align-items-center ">
+                <img src="./assets/Equinox Fitness Club - It_s Not Fitness_ It_s Life_/member_benefits_hero_image_dt_1440x720__1_.jpg" alt="" width="100%" height="100%">>
+                <div class="sign-container position-absolute" data-aos="fade-up" data-aos-delay="500">
+                    <h1>MEMBERSHIP <br> WITH BENEFITS</h1>
+                    <p>Equinox is available however, whenever, and wherever you want it with <br> seamlessly integrated physical and digital offerings. Explore the benefits of <br>an Equinox membership below.</p>
+                    <a href="#about" class="btn-get-started scrollto">Get Started</a>
+                </div>
+            </section>
+
+            <!-- NEW MEMBER BENEFITS -->
+            <div class="grand-left1">
+                <div class="parent-left1">
+                    <div>
+                        <h1>NEW <br>MEMBER <br>BENEFITS <br>WHEN YOU <br>JOIN</h1>
+                    </div>
+
+                    <div>
+                        <p>Join Equinox today and unlock exclusive benefits:</p>
+                                <ul>
+                                    <li>Complimentary Equifit Assessment</li>
+                                    <li>Complimentary Personal Training session</li>
+                                    <li>Complimentary Studio Pilates session</li>
+                                    <li>15% off your first in-store purchase at The Shop</li>
+                                    <li>25% off your first session at The Spa at Equinox</li>
+                                </ul>
+                            
+                    </div>
+
+                </div>
+
+            </div>
+        
+
+            <div class="unl-container">
+                <div class="unl-parent">
+                    <div class="unl-text">
+                    <h1>UNLIMITED <br>SIGNATURE <br> CLASSES</h1>
+                    <p>Science-backed classes developed by the <br>industry's best minds to maximize <br>transformation.</p>
+                    <a href="#about" class="btn-get-started scrollto">Learn More</a>
+                    </div>
+
+                    <div>
+                        <img src="./assets/Equinox Fitness Club - It_s Not Fitness_ It_s Life_/CORE_ANCILLARIES_MODULE__GF_375x563-min (2).jpg" alt="" width="90%" height="80%">
+                    </div>
+
+
+                </div>
+
+            </div>
+
+            <div class="unl-container2">
+                <div class="unl-parent2">
+                    <div class="unl-text2">
+                    <h1>EXPERT<br> COACHING</h1>
+                    <p>One-on-One training at Equinox is backed by our Health Advisory Board, and the EQX OS. This proprietary operating system, built to advance full health optimization, decodes and unlocks the peak of your potential, redefining High-Performance Living on a whole new scale.</p>
+
+                    <p>This is more than training, it’s the first-of-its-kind, data-driven and expert led path to unlocking your absolute best and achieving extraordinary results.</p>
+                    <a href="#about" class="btn-get-started scrollto">Learn More</a>
+                    </div>
+                    <div>
+                        <img src="./assets/Equinox Fitness Club - It_s Not Fitness_ It_s Life_/EVERGREEN_PERSONALTRAINING_BW_01_181_1_sRGB_FINAL-lpr.jpg" alt="" width="100%" height="100%">
+                    </div>
+
+
+                </div>
+            </div>
+
+            <!-- PILATE EVOLVED -->
+             
+            <div class="unl-container2">
+                <div class="unl-parent2">
+                    <div class="unl-text2">
+                    <h1>EXPERT<br> COACHING</h1>
+                    <p>One-on-One training at Equinox is backed by our Health Advisory Board, and the EQX OS. This proprietary operating system, built to advance full health optimization, decodes and unlocks the peak of your potential, redefining High-Performance Living on a whole new scale.</p>
+
+                    <p>This is more than training, it’s the first-of-its-kind, data-driven and expert led path to unlocking your absolute best and achieving extraordinary results.</p>
+                    <a href="#about" class="btn-get-started scrollto">Learn More</a>
+                    </div>
+                    <div>
+                        <img src="./assets/Equinox Fitness Club - It_s Not Fitness_ It_s Life_/industry-best-programing-3-min.png" alt="" width="100%" height="100%">
+                    </div>
+
+                </div>
+            </div>
+
+
+
+            <!-- JOIN THE COLLECTIVE -->
+            <div class="join-container2">
+                <div class="join-parent2">
+                    <div class="join-text2">
+                    <h1>JOIN THE <br>COLLECTIVE. <br> POWER YOUR <br> PURSUIT</h1>
+                    <p>One-on-One training at Equinox is backed by our Health Advisory Board, and the EQX OS. This proprietary operating system, built to advance full health optimization, decodes and unlocks the peak of your potential, redefining High-Performance Living on a whole new scale.</p>
+                    <a href="#about" class="btn-get-started scrollto">Download Equinox+</a>
+                    </div>
+                    <div class="j-img1">
+                        <img src="./assets/Equinox Fitness Club - It_s Not Fitness_ It_s Life_/UnrivaledCollective.webp" alt="" width="100%" height="100%">
+                    </div>
+                    <div>
+                        <img src="./assets/Equinox Fitness Club - It_s Not Fitness_ It_s Life_/bestabsever-slide2.png" alt="" width="100%" height="100%">
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- EQUINOX CIRCLE -->
+            <div class="join-container2">
+                <div class="join-parent2">
+                    <div class="join-text2">
+                    <h1>EQUINOX <br> CIRCLE</h1>
+                    <p>One-on-One training at Equinox is backed by our Health Advisory Board, and the EQX OS. This proprietary operating system, built to advance full health optimization, decodes and unlocks the peak of your potential, redefining High-Performance Living on a whole new scale.</p>
+                    <a href="#about" class="btn-get-started scrollto">Download Equinox+</a>
+                    </div>
+                    <div class="j-img1">
+                        <img src="./assets/Equinox Fitness Club - It_s Not Fitness_ It_s Life_/SPRING-LOOKBOOK-049-001030810009.webp" alt="" width="100%" height="100%">
+                    </div>
+                    <div>
+                        <img src="./assets/Equinox Fitness Club - It_s Not Fitness_ It_s Life_/USE_FOR_BLADE.jpg" alt="" width="100%" height="100%">
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="unl-container3"></div>
+                <div class="unl-parent3">
+                    <div class="unl-text3">
+                    <h1>EXPRESS <br> YOUR <br> DESIRES</h1>
+                    <p>Put your Equinox membership on your American Express Platinum <br>Card® and you'll get up to $300 <br>back per year.  Applicable on any <br> Equinox membership and the <br> Equinox+ digital fitness app. <br> Terms apply.
+                    </p>
+                    <a href="#about" class="btn-get-started scrollto">Learn More</a>
+                    </div>
+                    <div>
+                        <img src="./assets/Equinox Fitness Club - It_s Not Fitness_ It_s Life_/boy running.jpeg" alt="" width="90%" height="100%">
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+
+
+
+            <!-- ABOUT MENU -->
+ <div class="menu">
+    <div class="menu-parent">
+    <div class="menu-list">
+      <ul>
+        <li>About</li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Pilates Teacher Training</a></li>
+          <li><a href="#">Gift Card</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Corporate Membership</a></li>
+          <li><a href="#">Member Policies</a></li>
+          <li><a href="#">U.K. Disclosures</a></li>
+      </ul>
+    </div>
+  
+    <div>
+      <div class="imgs">
+        <img src="./assets/Equinox Fitness Club - It_s Not Fitness_ It_s Life_/facebook-1.jpg" alt="fb" width="40px" height="40px">
+        <img src="./assets/Equinox Fitness Club - It_s Not Fitness_ It_s Life_/twitter.jpg" alt="x" width="40px" height="40px">
+        <img src="./assets/Equinox Fitness Club - It_s Not Fitness_ It_s Life_/youtube.jpg" alt="yt" width="40px" height="40px">
+        <img src="./assets/Equinox Fitness Club - It_s Not Fitness_ It_s Life_/instagram.jpg" alt="ig" width="40px" height="40px">
+      </div>
+    </div>
+  </div>
+   </div>
+  
+  <!-- FOOTER -->
+    <section class="footer">
+      <div class="footer-content">
+        <div><a href="#">Send Feedback</a></div>
+        <div><a href="#">Privacy Policy</a></div>
+        <div><a href="#">California Consumer Private Statement</a></div>
+        <div><a href="#">Do Not Sell or Share My Perssonal Information</a></div>
+        <div><a href="#">Terms & Conditions</a></div>
+        <div><a href="#">FAQ</a></div>
+        <div><a href="#">Privacy Preference Centre</a></div>
+      </div>
+  
+    </section>
+
+
+
+
+
+
+
+
     
+
+
+            <!-- BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
