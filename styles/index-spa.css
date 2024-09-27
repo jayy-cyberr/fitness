@@ -149,6 +149,15 @@
     
 }
 
+.card-body{
+    background-color: black;
+    color: white;
+}
+
+.card{
+    border: none;
+}
+
 @media screen and (max-width:769px) {
     .container, .left-3, .right-3 {
         flex-direction: column;
@@ -190,12 +199,12 @@
 }
 
 
-.unl-container3{
+.unl-container4{
     background-color: black;
     color: white;
 }
 
-.unl-parent3{
+.unl-parent4{
     display: flex;
    gap: 5rem;
    padding-left: 5rem;
@@ -206,24 +215,24 @@
 }
 
 @media screen and (max-width:769px) {
-    .unl-parent3{
+    .unl-parent4{
         flex-direction: column;
         gap: 0px;
 
     }
 }
 
-.unl-text3 h1{
+.unl-text4 h1{
     margin-bottom: 2.5rem;
     
 }
 
-.unl-text3 p{
+.unl-text4 p{
     margin-bottom: 2.5rem;
 }
 
 
-.unl-text3 a{
+.unl-text4 a{
     padding: 12px 22px;
     border: 1px solid white;
     text-decoration: none;
