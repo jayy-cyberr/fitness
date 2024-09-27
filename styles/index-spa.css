@@ -1,0 +1,389 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #000000;
+}
+
+.container-fluid{
+    width: 97vw;
+    margin: auto;
+    padding: 1.2rem;
+}
+
+.nav-link{
+    color: white;
+}
+
+
+.con{
+    background-color: black;
+    color: white;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+.left {
+    background-image: url(https://images.ctfassets.net/drib7o8rcbyf/6VSzsJ8j5aa1i6H9zxW5ZL/38799217ff922e3319320d202810bc33/EQUINOX1694_V6-lpr.jpg?fm=webp&fit=fill&w=960);
+    object-fit: cover;
+    position: absolute;
+    width: 50%;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.right {
+    width: 50%;
+    padding: 40px;
+    overflow-y: auto;
+    height: 100vh;
+    background-color: white;
+    color: black;
+
+}
+
+.min{
+    width: 100%;
+    
+}
+
+.form-group {
+    margin-bottom: 15px;  
+}
+
+
+.form-group input, .form-group select {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+.name{
+    display: flex;
+    gap: 60px;
+}
+
+.form-group input[type="checkbox"] {
+    width: auto;
+}
+
+
+.submit-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.left h3 {
+    font-size: 55px;
+    text-align: center;
+}
+
+.left p {
+    text-align: center;
+    font-size: 18px;
+}
+
+@media screen and (max-width:769px) {
+    .container, .left-2, .right-2 {
+        flex-direction: column;
+        
+    }
+}
+
+.left-2{
+    display: flex;
+    justify-content: space-around;
+    width: 95vw;
+    margin: auto; 
+}
+
+.left-2 h2{
+    margin-top: 4rem;
+}
+
+.right-2{
+    display: flex;
+    gap: 4rem;
+    position: relative;
+}
+
+.right-2 .card{
+    margin-top: 4rem;
+}
+
+
+.container-2{
+    background-color: black;
+    color: white;
+    
+}
+
+.container-3{
+    background-color: black;
+    color: white;
+    
+}
+
+@media screen and (max-width:769px) {
+    .container, .left-3, .right-3 {
+        flex-direction: column;
+        
+    }
+}
+
+.left-3{
+    display: flex;
+    justify-content: space-around;
+    width: 95vw; 
+    gap: 6rem;
+    margin-left: 4rem;
+}
+
+.left-3 h2{
+    margin-top: 6rem;
+}
+
+.right-3{
+    display: flex;
+    gap: 2rem;
+    position: relative;
+   
+
+}
+
+.right-3 .card{
+    margin-top: 8rem;
+}
+
+
+.container-3{
+    background-color: black;
+    color: white;
+    height: 100%;
+   
+    
+}
+
+
+.unl-container3{
+    background-color: black;
+    color: white;
+}
+
+.unl-parent3{
+    display: flex;
+   gap: 5rem;
+   padding-left: 5rem;
+   background-color: black;
+   color: white;
+   height: 100vh;
+
+}
+
+@media screen and (max-width:769px) {
+    .unl-parent3{
+        flex-direction: column;
+        gap: 0px;
+
+    }
+}
+
+.unl-text3 h1{
+    margin-bottom: 2.5rem;
+    
+}
+
+.unl-text3 p{
+    margin-bottom: 2.5rem;
+}
+
+
+.unl-text3 a{
+    padding: 12px 22px;
+    border: 1px solid white;
+    text-decoration: none;
+    color: white;
+}
+
+.grand-review{
+    background-color: black;
+    color: white;
+    height: 75vh;
+    
+}
+    
+
+.review{
+    display: flex;
+    gap: 7rem;
+    width: 95vw;
+    margin-left: 4rem;
+}
+
+
+
+.shop-container{
+    background-color: black;
+    color: white;
+    width: 95vw;
+    margin: auto;
+}
+
+.shop-parent{
+    display: flex;
+   gap: 8rem;
+   padding-left: 5rem;
+   background-color: black;
+   color: white;
+
+}
+
+@media screen and (max-width:769px) {
+    .shop-parent, .review, .container-2, .eq-parent{
+        flex-direction: column;
+        gap: 0px;
+
+    }
+}
+
+.shop-text{
+    width: 60%;
+    margin-top: 8rem;
+}
+
+.shop-text h1{
+    margin-bottom: 2.5rem;
+    
+}
+
+.shop-text p{
+    margin-bottom: 2.5rem;
+}
+
+
+.shop-text a{
+    padding: 12px 22px;
+    border: 1px solid white;
+    text-decoration: none;
+    color: white;
+}   
+
+
+
+.eq-container{
+    background-color: black;
+    color: white;
+}
+
+.eq-parent{
+    display: flex;
+   gap: 8rem;
+   padding-left: 5rem;
+   background-color: black;
+   color: white;
+
+}
+
+.eq-text{
+    width: 60%;
+    margin-top: 8rem;
+}
+
+.eq-text h1{
+    margin-bottom: 2.5rem;
+    
+}
+
+.eq-text p{
+    margin-bottom: 2.5rem;
+}
+
+
+.eq-text a{
+    padding: 12px 22px;
+    border: 1px solid white;
+    text-decoration: none;
+    color: white;
+}   
+
+
+.menu-parent{
+    display: flex;
+    justify-content: space-between;
+    width: 97vw;
+    margin: auto;
+    margin-top: 2.5rem;
+}
+
+.menu-list ul{
+    line-height: 2.5rem;
+    text-decoration: none;
+    list-style: none;  
+    font-size: medium; 
+}
+
+.menu-list a{
+    text-decoration: none;
+    color: #8B8C89;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    width: 97vw;
+    margin: auto;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+    
+}
+.footer-content a{
+    text-decoration: none;
+    color: #8B8C89;
+}
+
+@media screen and (max-width:769px) {
+    .footer-content{
+        flex-direction: column;
+        gap: 0px;
+        line-height: 2.5rem;
+        padding-left: 2rem;
+    }
+
+    .menu-parent{
+        flex-direction: column;
+    }
+    .menu-parent .imgs{
+        padding-left: 2.5rem;
+    }
+
+}
+
+
+
+
+
