@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* Flex container styling */
+    
+        body{
+          background-color: red;
+        }
+    .flex-container {
+        display: flex;
+        align-items: flex-start;
+        gap: none;
+        padding: 20px;
+    }
+    
+    /* Individual content box styling */
+    .content-box {
+        background-color: #000;
+        color: #fff;
+        padding: 20px;
+        border-left: 2px solid #fff;
+        border-right:  2px solid #fff;;
+        width: 30%;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        height: 90vh;
+    }
+    .box{
+      width: 80%;
+      margin: auto;
+    }
+    
+    /* Hover effect: Transform and shadow */
+    .content-box:hover {
+      background-color: #272626;
+        transform: translateY(-15px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+    
+    /* Styling for headings and paragraphs */
+    h2 {
+        font-size: 44px;
+        margin-bottom: 10px;
+        margin-left: -35px;
+    }
+    
+    p {
+        font-size:20px;
+        margin-bottom: 15px;
+    }
+    
+    /* Horizontal rule styling */
+    hr {
+        border: 0;
+        border-top: 1px solid #fff;
+        margin-bottom: 15px;
+    }
+    
+    /* Styling for unordered list */
+    #mmm {
+      padding-bottom: 1rem;
+        padding-left: 0;
+        font-size: 21px;
+    
+    }
+    
+    ul li ul {
+      list-style:circle;
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+    .img{
+      height: 40vh;
+      width: 50vh;
+    }
+    
+    
+      </style>
+    
+</head>
+<body>
+
+    <div class="flex-container">
+        <div class="content-box">
+          <div class="box">
+            <h2>1. BODYWORK</h2>
+            <p>Direct, hands-on relief applied by Licensed Massage Therapists that blends modalities such as stretching, trigger point therapy, myofascial release, and more.</p>
+            <hr>
+            <p id="mmm" >Includes: </p>
+            <ul>
+              <li>Bodywork</li>
+              <li>Bodywork (SC)</li>
+              <li>Master Therapist Bodywork</li>
+          </ul>
+    
+          <div class="img">
+            <img src="./assets/Equinox Fitness Club - It_s Not Fitness_ It_s Life_/one.jpg" height="100%" width="100%" alt="">
+          </div>
+          </div>
+        </div>
+    
+        <div class="content-box">
+          <div class="box">
+            <h2> 2. SKINCARE</h2>
+            <p>Direct, hands-on relief applied by Licensed Massage Therapists that blends modalities such as stretching, trigger point therapy, myofascial release, and more.</p>
+            <hr>
+            <p id="mmm" >Includes: </p>
+            <ul>
+              <li> Bodywork</li>
+              <li>Bodywork (SC)</li>
+              <li>Master Therapist Bodywork</li>
+          </ul>
+    
+          <div class="img">
+            <img src="./assets/Equinox Fitness Club - It_s Not Fitness_ It_s Life_/two.jpg" height="100%" width="100%" alt="">
+          </div>
+        </div></div>
+    
+        <div class="content-box">
+          <div class="box">
+            <h2>3. SPECIALTY</h2>
+            <p>Direct, hands-on relief applied by Licensed Massage Therapists that blends modalities such as stretching, trigger point therapy, myofascial release, and more.</p>
+            <hr>
+            <p id="mmm" >Includes: </p>
+            <ul>
+              <li> Bodywork</li>
+              <li>Bodywork (SC)</li>
+              <li>Master Therapist Bodywork</li>
+          </ul>
+    
+          <div class="img">
+            <img src="./assets/Equinox Fitness Club - It_s Not Fitness_ It_s Life_/three.jpg" height="100%" width="100%" alt="">
+          </div>
+          </div>
+        </div>
+    </div>
+    
+    
+</body>
+</html>
